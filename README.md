@@ -23,7 +23,7 @@ The application:
 - Java 21 or newer
 - Internet connection (required on first run)
 
-If you don't have Java install it please
+If you do not have Java installed, follow the instructions below for your operating system.
 
 ## Linux 
 ```bash
@@ -48,6 +48,10 @@ https://adoptium.net/
 Run the installer
 Make sure “Add Java to PATH” is checked during installation.
 
+Verify installation:
+```bash
+java --version
+```
 Playwright downloads browser binaries automatically on first execution.
 
 ---
@@ -56,5 +60,14 @@ Playwright downloads browser binaries automatically on first execution.
 
 From the project directory:
 
+### 1. Build the project
+Insde the directory demo/
 ```bash
-java -jar app.jar
+mvn clean package
+```
+Then cd to target folder
+
+### 2. Run the project
+(The jar file name may differ depending on the version)
+```bash
+java -jar demo-1.0-SNAPSHOT.jar
