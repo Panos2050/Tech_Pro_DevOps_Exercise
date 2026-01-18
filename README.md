@@ -23,7 +23,7 @@ The application:
 - Java 21 or newer
 - Internet connection (required on first run)
 
-If you don't have Java installed
+If you don't have Java install it please
 
 ## Linux 
 ```bash
