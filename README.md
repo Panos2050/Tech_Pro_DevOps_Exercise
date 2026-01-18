@@ -26,18 +26,20 @@ The application:
 If you don't have Java installed
 
 ## Linux 
+```bash
 sudo apt update
 sudo apt install openjdk-21-jdk
+```
 
 ## macOS
-
+```bash
 brew install openjdk@21
-
+```
 - Then add Java to your PATH
-
+```bash
 echo 'export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
-
+```
 ## Windows
 
 Download Java 21 (JDK) from:
