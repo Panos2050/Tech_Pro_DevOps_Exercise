@@ -1,4 +1,4 @@
-# Playwright Java Demo – YouTube Automation
+# Playwright Java – YouTube Automation
 
 This repository contains a small exercise project demonstrating browser automation
 using Playwright with Java.
@@ -57,6 +57,11 @@ Playwright downloads browser binaries automatically on first execution.
 ---
 
 ## How to Run
+
+### 0. Clone the repository
+```bash
+git@github.com:Panos2050/Tech_Pro_DevOps_Exercise.git
+```
 
 From the project directory:
 
